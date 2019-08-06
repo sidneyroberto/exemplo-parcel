@@ -1,0 +1,38 @@
+$cor-fundo: #8e44ad;
+$cor-hover: #dcc6e0;
+
+.menu {
+    background-color: $cor-fundo;
+    padding: 20px 10px;
+    color: white;
+
+    #titulo {
+        font-weight: bold;
+        font-size: 150%;
+
+        a:hover {
+            color: $cor-hover;
+        }
+    }
+
+    ul {
+        display: inline;
+        list-style: none;
+    }
+
+    li {
+        display: inline;
+        margin-right: 10px;
+        padding-bottom: 3px;
+
+        &:hover {
+            border-bottom: 5px solid $cor-hover;
+        }
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 120%;
+    }
+}

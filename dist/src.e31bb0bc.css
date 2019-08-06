@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.menu {
+  background-color: #8e44ad;
+  padding: 20px 10px;
+  color: white;
+}
+.menu #titulo {
+  font-weight: bold;
+  font-size: 150%;
+}
+.menu #titulo a:hover {
+  color: #dcc6e0;
+}
+.menu ul {
+  display: inline;
+  list-style: none;
+}
+.menu li {
+  display: inline;
+  margin-right: 10px;
+  padding-bottom: 3px;
+}
+.menu li:hover {
+  border-bottom: 5px solid #dcc6e0;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 120%;
+}
+
+.conteudo {
+  padding: 20px;
+}
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */
